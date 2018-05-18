@@ -1,4 +1,3 @@
-package MergeTwoSortedLists;
 
 /**
  * #21
@@ -6,8 +5,10 @@ package MergeTwoSortedLists;
  * 示例：
  * 输入：1->2->4, 1->3->4
  * 输出：1->1->2->3->4->4
+ *
+ * 对两边的概念理解的不是很好
  */
-public class Main {
+public class MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null) {
             return l2;
